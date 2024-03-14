@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RhappJpaApplication<rhapp_jpa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "webapp.rhapp_jpa.RhappJpaApplication",
+            "projectName": "rhapp_jpa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
