@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Luigi - Login ADM</title>
+    <title>Escola Luigi - Login Docente</title>
     <div th:include="~{fragmentos/head}"><!-- Menu de estilização default --></div>
     <link rel="stylesheet" th:href="@{css/style-login.css}">
 
@@ -18,10 +18,10 @@
                 <div class="login-container">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Login do Administrador</h3>
+                            <h3>Login do Docente</h3>
                         </div>
                         <div class="card-body">
-                            <form action="acesso-adm" method="POST">
+                            <form action="acesso-docente" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="CPF" name="cpf">
                                 </div>
@@ -30,7 +30,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-block btn-login"><i class="fas fa-sign-in-alt"></i>
                                     Entrar</button>
-                                <a href="/cadastro-adm"><button type="button" class="btn btn-block btn-login"><i
+                                <a href="/cadastro-docente"><button type="button" class="btn btn-block btn-login"><i
                                             class="fas fa-sign-in-alt"></i> Cadastrar</button></a>
                             </form>
                         </div>

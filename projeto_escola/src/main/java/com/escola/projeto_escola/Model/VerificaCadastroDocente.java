@@ -8,10 +8,9 @@ import lombok.*;
 @Entity
 @Getter
 @Setter
-public class VerificaCadastroAdm implements Serializable{
-    // Atributos
+public class VerificaCadastroDocente implements Serializable {
+
     @Id
     private String cpf;
     private String nome;
-    
 }
