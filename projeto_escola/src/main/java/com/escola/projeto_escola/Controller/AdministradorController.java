@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.escola.projeto_escola.Model.Administrador;
-import com.escola.projeto_escola.Repository.AdministradoresRepository;
+import com.escola.projeto_escola.Repository.AdministradorRepository;
 import com.escola.projeto_escola.Repository.VerficaCadastroAdmRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AdministradorController {
 
     @Autowired
-    AdministradoresRepository ar;
+    AdministradorRepository ar;
 
     @Autowired
     VerficaCadastroAdmRepository vcar;

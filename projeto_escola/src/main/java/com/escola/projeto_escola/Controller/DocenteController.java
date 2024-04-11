@@ -29,7 +29,7 @@ public class DocenteController {
             System.out.println("Erro ao salavar dados no banco");
         }
 
-        return "login/login-docente";
+        return "cadastro/cadastro-docente";
     }
 
 }
